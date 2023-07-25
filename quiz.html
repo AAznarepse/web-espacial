@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El universo y yo-Acertijos</title>
+    <link rel="stylesheet" href="/css/stylequiz.css">  <!-- permite conectar otros elmentos de java o css cpn mi html y "href" diagonal la direccion del archivo del que lo tomará -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- conectar mis fuentes con html desde google para el titulo de la pagina -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav >
+        <ul class="menusinicio">
+            <li >
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="/quiz.html">Acertijos</a>
+            </li>
+        </ul>
+        
+    </nav>
+    </header>
+
+    <main>
+
+        <h1 id="acertijos">Acertijos</h1>
+
+
+
+        <!-- formularios con: form-->
+        
+        <form class="formulario">
+            <ol>
+                <li><p style="font-size: 20px;">¿Cuál es la edad del Universo?</p></li>
+            <label for="">
+                <input type="text"><!-- es para escribir la respuesta-->
+                <button>Enviar</button> <!-- crea un boton y puedo hacerlo con o sin texto-->
+            </label>
+            <li style="font-size: 20px;"><p>¿Cuántas misiones Apolo existieron?</p></li>
+            <label for="10-misiones"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="apolo">10 misiones <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="3-misiones">
+                <input type="radio" name="apolo">3 misiones <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Qué objetos celestes existen?</p></li>
+            <label for="planetas"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="checkbox" name="celestes">planetas
+            </label>
+            <label for="galaxias">
+                <input type="checkbox" name="celestes">galaxias <!-- checkbox es para poder seleccionar varias respuestas-->
+            </label>
+            <label for="estrellas">
+                <input type="checkbox" name="celestes">estrellas <!-- checkbox es para poder seleccionar varias respuestas-->
+            </label>
+            </form>
+
+            <li><p style="font-size: 20px;">¿Por qué la Luna nos muestra siempre la misma cara?</p></li>
+            <label for="cara-luna"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="luna">porque no tiene otra <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="3-misiones">
+                <input type="radio" name="luna">rotación sincrónica <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="razon">
+                <input type="radio" name="luna">por casualidad <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Cuál es la velocidad de la luz?</p></li>
+            <label for="luz1"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="luz">200 km/h <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="3-misiones">
+                <input type="radio" name="luz">muy muy rápido <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="razon">
+                <input type="radio" name="luz">300 000 km/s <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Dónde termina el sistema Solar?</p></li>
+            <label for="sostemasolar"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="sistema">en Plutón <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="sistemasolar">
+                <input type="radio" name="siatema">en la nube de Oort <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="sistemasolar">
+                <input type="radio" name="luna">en muy muy lejano <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Qué es la nube de Oort?</p></li>
+            <label for="">
+                <input type="text"><!-- es para escribir la respuesta-->
+                <button>Enviar</button> <!-- crea un boton y puedo hacerlo con o sin texto-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Cuál es la estrella más cercana al Sistema Solar?</p></li>
+            <label for="cercaestrella"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="cercaestrella">Nidavellir <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="sistemasolar">
+                <input type="radio" name="cercaestrella">La estrella de la Muerte <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="sistemasolar">
+                <input type="radio" name="luna">Proxima Centauri <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Cuál es la galaxia más cercana al Sistema Solar?</p></li>
+            <label for="cercagalaxy"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="radio" name="cercagalaxy">Andrómeda <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="sistemasolar">
+                <input type="radio" name="cercaestrella">Enana del Can Mayor <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="sistemasolar">
+                <input type="radio" name="cercagalaxy">Orión <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+
+            <li><p style="font-size: 20px;">¿Qué es un agujero negro (a grandes razgos)?</p></li>
+            <label for="agujero-negro"> <!-- etiquete para identificar cda respuesta, el atributo "name" relaciona que las respuestas pertenecen a la misma pregunta-->
+                <input type="checkbox" name="negro">ni idea <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="agujeronegro">
+                <input type="checkbox" name="negro">una región del espacio con un gran tirón gravitatorio <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+            <label for="agujero-negro">
+                <input type="checkbox" name="negro">lo opuesto a agujero blanco <!-- crea un circulo ha seleccionar, pero solo puedes seleccionar una-->
+            </label>
+        </ol>
+    </form>
+
+    </main>
+
+    <footer>
+        <ul class="footer">
+            <a href="">Términos y condiciones<br></a>
+        </ul>
+    </footer>
+</body>
+</html>
+

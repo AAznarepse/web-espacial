@@ -1,0 +1,136 @@
+<!-- declaracion de un archivo html -->
+<!DOCTYPE html>
+<!-- lang es el lenguaje del sitio -->
+<html lang="es">
+    <!-- head es la metadata y es la info del navegador -->
+    <head>
+    <!-- meta es para cargar caracteres de nuestro abecedario y se autocierra-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <TItle>El universo y yo</TItle> <!-- sirve para darle un titulo a la pestana en el buscador -->
+    <link rel="stylesheet" href="/css/style.css">  <!-- permite conectar otros elmentos de java o css cpn mi html y "href" diagonal la direccion del archivo del que lo tomará -->
+    <!-- conectar mis fuentes con html desde google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- conectar mis fuentes con html desde google para el titulo de la pagina -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <!-- body es lo que ve el usuario -->
+    <body>
+
+        <header>
+
+            <nav >
+                <ul class="menusinicio">
+                    <li >
+                        <a href="/index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="quiz.html">Acertijos</a>
+                    </li>
+                    <li>
+                        <a href="#Vision">Visión</a>
+                    </li>
+                    <li>
+                        <a href="#Mision">Misión</a>
+                    </li>
+                </ul>
+                
+            </nav>
+
+        </header>
+
+
+
+        <main>
+            
+
+            <div style="text-align: center;"> <!-- para modificar la posicion de la imagen-->
+                <img class="logo" src="/images/logosinfondo.png" >
+            </div>
+            <h1 class="titulo-principal">El universo y yo</h1>
+
+            <p class="texto-inicial">
+                Somos una asociación que nos importa poder compartir con todos lo fascinante de la astronomía, aprendiendo de ciencia por medio de talleres, charlas, cursos y muchos juegos dinámicos para todas la edades.
+            </p>
+
+            <!-- indice con anclas  <a>
+            <div class="indice">
+                <a href="#Vision">Visión</a>
+                
+                <a href="#Mision">Misión</a>
+                <br>-->
+                
+            
+            </div>
+            <!-- div es para crear divisiones -->
+            <div class="slider-container">  <!-- esta division es para crear el carrusel -->
+                <img class="slider-item" src="/images/1.png">
+                <img class="slider-item" src="/images/2.png">
+                <img class="slider-item" src="/images/3.png">
+                <img class="slider-item" src="/images/4.png">
+            </div>
+            
+
+            <section>
+                <div class="main-cuadros"> <!-- Elementos de los recuadros -->
+                    <li>
+                    <h3 id="titulo-actividades">ACTIVIDADES</h3> 
+                    <p class="p1"><a>Observando el universo<br></a>
+                    <a>Test de astronomía<br></a>
+                    <a>Crea tu propio telescopio <br></a> </p>
+                    </li>
+                    <li>
+                        <h3 id="titulo-cursos">Cursos</h3>
+                        <p class="p2">Astronomía Básica<br>
+                        Identificando constalaciones<br>
+                        Todo sobre telescopios<br> </p>
+                    </li>
+                </div>
+        </section>
+
+        <div class="imagenes">
+            <img class="imagen-calendario" src="/images/calendario.png">
+            
+            <img class="imagen-contacto" src="/images/contacto.png">
+            
+        </div>
+        <h1 id="calen">Calendario</h1> 
+        <h1 id="calen">Contacto</h1>
+        <br>
+        <br>
+        <br>
+        <br><br><br><br>
+
+            
+            <hr> <!--hr es una division horizontal que separa los elementos de tu pagina -->
+            
+            <h3  id="Mision">Misión</h3><!--el id es para que busque ese elemento en la  pagina <p>-->
+            <p class="title-mision"><!-- elemento parrafo <p>-->
+                Comprometidos en poder acercar el conocimiento  todo el público, con la idea de generar en las nuevas generaciones un interés fortuito por la ciencia y por todo lo que implica. <br>
+                Transformar a México en un país con actividades científicas y desarrollos tecnológicos espaciales de clase internacional, orientados a la atención de las necesidades sociales, y articulados a programas de industrialización y de servicios en tecnologías de frontera, que contribuyan a incrementar la competitividad del país.
+            </p> 
+
+            <h3 id="Vision">Visión</h3>
+            <p class="title-mision">
+                La Agencia potencia el desarrollo de la ciencia y tecnología espaciales colocando a México como una nación líder en la creación de bienes y servicios en la industria espacial a nivel internacional, promoviendo con ello el mejoramiento de la calidad de vida de todos y todas los y las mexicanos(as) y el incremento de los niveles de desarrollo económico del país.
+
+            </p>  
+
+
+        </main>
+
+
+        <footer>
+            <ul class="footer">
+                <a href="">Términos y condiciones<br></a>
+                
+            </ul>
+        </footer>
+        
+    </body>
+
+</html>

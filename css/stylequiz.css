@@ -1,0 +1,118 @@
+body{ /*aqui modifico todos los elelemntos dentro del body*/
+    
+    background-image: url(/images/fondon\ web\ espacio.png);  
+    font-family: 'Courgette', cursive;
+    color: rgb(8, 8, 8); 
+    /* siempre cambiar el margen predeterminado arriba, derecha, abajo, izquierda*/
+    margin: 0px 5px 0 5px;
+    /* margen para adentro*/
+    padding: 0;
+    /* tamaño de texto*/
+    font-size: 13px;
+    /* fuente del texto*/
+    font-family: Arial, Helvetica, sans-serif;
+} 
+    header{ 
+    background-color: rgb(133, 189, 235);
+    width: 100%;
+    height: 70%; /*altura*/
+    margin: 5px 5px; /* es una margen para los cuatro lados, para evitar modificar lado por lado*/ 
+}
+
+    header nav{ 
+    background-color: rgb(133, 189, 235);
+    display: flex; /*nos permite mover nuestro elemento de diferentes formas "flex"*/
+    justify-content: center;  /*es para alinear los elementos*/
+    width:100%; 
+    height: auto;
+    }
+    
+    header nav .menusinicio { /*ul modificando los parametros de la lista sin orden en general*/
+    background-color: (133, 189, 235);
+    list-style: none; /*eliminar viñetas*/
+    /*text-decoration: none; eliminar subrayado*/
+    width: 90%; /*ancho*/
+    display: flex;
+    justify-content:center; /*centra el contenido en relacion a esa sección derecha izquierda*/
+    margin-top: 55px; /*pude generar un margen en lo alto y así bajar el menu en el recuadro del encabezado*/
+    
+    }
+    
+    header nav .menusinicio a{ /*modificando los items*/
+    color: rgb(21, 21, 21);/*color de texto*/
+    text-decoration: none; /*para eliminar el subrayado*/
+    font-family: cursive;
+    font-size: 20px;
+    margin: 120px; /*genera un margen a la derecha entre los items los cuales están confinados en el tamaño de la lista sin orden previamente definido*/
+    align-items:center;
+    } 
+    
+    header nav .menusinicio a:hover{ /*modificando los items*/
+    color: #292929;
+    text-decoration:underline;
+}
+
+
+/*-----------main--------------*/
+
+#acertijos{
+    font-size: 45px;
+    margin-left: 15px;
+}
+main .formulario{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    width: 700px;
+    padding-top: 30px;
+}
+
+#astroimagen{
+    display:inline-block;
+    padding-left: 850px;
+    padding-top: 30px;
+}
+
+#texto{
+    display:flex;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(133, 189, 235);
+    height: 95px;
+    font-size: 14px;
+    margin-top: 275px;
+    display: flex; /*nos permite mover nuestro elemento de diferentes formas "flex"*/
+    list-style: none;
+    
+    
+}
+.footer a{
+    height: 20px; /*altura (automatica al tamaño del elemento) */
+    width: auto;
+    display: flex;
+    justify-content: center; /*centra el contenido en relacion a esa sección derecha izquierda*/
+    align-items: center; /*centra el contenido en relacion arriba y abajo*/
+    margin-left: 560px;
+    color: rgb(21, 21, 21); /*color de texto*/
+    text-decoration: none;
+    
+}
+
+.footer a:hover {
+color: #292929;
+text-decoration:underline;
+
+}
